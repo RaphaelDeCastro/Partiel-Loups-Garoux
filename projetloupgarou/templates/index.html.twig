@@ -1,7 +1,28 @@
-<html>
+{% extends 'base.html.twig' %}
 
-    
+{% block header %}
+    <h2>Voici le header</h2>
+{% endblock %}
 
-    <p>Hello</p>
 
-</html>
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="css/home.css" type="text/css">
+	<link rel="stylesheet" href="/css/ecriture.css">
+
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="jumbotron mt-3">
+        <h1 class="display-3" style="text-align:center">Loups-Garous de Thiercelieux</h1>
+    </div>
+        <div class="row">
+			<p class="lead">
+            	<a class="btn btn-success btn-lg" style="text-align:center" href="#" role="button" >Voir tous les joueurs !</a>
+                <button type="button" href class="btn btn-primary">Jouer</button>
+        	</p>
+		</div>
+</div>
+{% endblock %}

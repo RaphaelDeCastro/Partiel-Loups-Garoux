@@ -1,0 +1,26 @@
+h1{
+    font-family: fantasy;
+    font-size: xx-large;
+    margin-top: 8%;
+}
+
+h2{
+    font-family: Brush Script MT;
+    color:black;
+    font-size: large;
+    font-size: 150%;
+    text-shadow: 0.1em 0.2em 0.2em rgba(0, 0, 0, 0.301);
+}
+
+p{
+    
+    
+    text-shadow: 0.1em 0.2em 0.2em rgb(0, 0, 0);  
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color:#5f6364 !important;
+  }
+
+    
