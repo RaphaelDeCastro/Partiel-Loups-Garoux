@@ -1,5 +1,7 @@
 <?php
 
+use Doctrine\ORM\Mapping\Id;
+
 class Partie_en_cours {
 
     /**
@@ -111,6 +113,37 @@ class Partie_en_cours {
 
         return $this;
     }
+
+    public function estVillageois(int $getId_joueur, int $getId_carte){
+        if ($getId_carte == 1){
+            return $getId_joueur;
+        }
+    }
+
+    public function estLoup(int $getId_joueur, int $getId_carte){
+        if ($getId_carte == 1){
+            return $getId_joueur;
+        }
+    }
+
+    public function estVoyante(int $getId_joueur, int $getId_carte){
+        if ($getId_carte == 1){
+            return $getId_joueur;
+        }
+    }
+
+    public function estCupidon(int $getId_joueur, int $getId_carte){
+        if ($getId_carte == 1){
+            return $getId_joueur;
+        }
+    }
+
+    public function estSorciere(int $getId_joueur, int $getId_carte){
+        if ($getId_carte == 1){
+            return $getId_joueur;
+        }
+    }
+
 }
 
 
