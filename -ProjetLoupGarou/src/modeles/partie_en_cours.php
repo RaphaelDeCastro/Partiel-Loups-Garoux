@@ -121,31 +121,30 @@ class Partie_en_cours {
     }
 
     public function estLoup(int $getId_joueur, int $getId_carte){
-        if ($getId_carte == 1){
+        if ($getId_carte == 2){
             return $getId_joueur;
         }
     }
 
     public function estVoyante(int $getId_joueur, int $getId_carte){
-        if ($getId_carte == 1){
+        if ($getId_carte == 3){
             return $getId_joueur;
         }
     }
 
     public function estCupidon(int $getId_joueur, int $getId_carte){
-        if ($getId_carte == 1){
+        if ($getId_carte == 4){
             return $getId_joueur;
         }
     }
 
     public function estSorciere(int $getId_joueur, int $getId_carte){
-        if ($getId_carte == 1){
+        if ($getId_carte == 5){
             return $getId_joueur;
         }
     }
+    
+
 
 }
-
-
-
 ?>

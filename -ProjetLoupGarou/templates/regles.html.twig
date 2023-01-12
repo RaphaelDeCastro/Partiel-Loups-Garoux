@@ -1,0 +1,28 @@
+{% include 'base.html.twig' %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="css/home.css" type="text/css">
+	<link rel="stylesheet" href="/css/ecriture.css">
+
+{% endblock %}
+
+{% block body %}
+	<body>
+		<div class="acceuil pt-5">
+			<h1 class="display-3 text-center">Les règles</h1>
+			<div class="container">
+				<ol>
+                    <li>cartes Loup-Garou : ils égorgent les villageois pendant la nuit et se font passer pour eux le jour.</li>
+                    <li>cartes simples villageois : chaque nuit l’un deux est égorgé par les loups-garous. Les villageois survivants doivent lyncher l’un des joueurs dans l’espoir d’éliminer un loup-garou. </li>
+                    <li>carte voyante qui aide les villageois sans être démasquée par les loups-garous. </li>
+                    <li>carte voleur qui, au premier tour peut être échangée contre l’une des deux cartes non distribuée. </li>
+                    <li>carte cupidon, avec laquelle le joueur titulaire doit désigner deux amoureux. Si l’un des deux meurt l’autre meurt de chagrin. Si les amoureux sont un loup-garou et un villageois ils jouent contre tous les autres joueurs. </li>
+                    <li>carte chasseur, qui autorise la personne qui la détient à tuer n’importe quel autre joueur s’il se fait tuer ou lyncher par un loup-garou. </li>
+                    <li>carte sorcière qui permet à son détenteur d’utiliser une potion d’empoisonnement et de guérison. Chaque potion doit n’être utilisée qu’une seule fois dans la partie. La sorcière peut utiliser les potions pour elle-même. </li>
+                    <li>carte petite fille. La personne qui l’a détient a le droit d’espionner les loups-garous une fois qu’ils ont désigné leur victime. </li>
+                    <li>carte capitaine dont le titulaire est élu par vote. Son vote compte désormais pour deux voix. En cas d’élimination il désigne son successeur. </li>
+                </ol>
+			</div>
+		</div>
+	</body>
+{% endblock %}
