@@ -80,6 +80,21 @@ class Joueurs {
     }
 
     /**
+     * un joueur
+     * @param integer
+     * @return Joueurs
+     */
+    public static function findById($id): Joueurs
+    {
+        $req=MonPDO::getInstance()->prepare("Select * from joueurs where id_joueur= :id");
+        $req->setFetchMode(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,'joueurs');
+        $req->bindParam(":id", $id);
+        $req->execute();
+        $leResultat=$req->fetch();
+        return $leResultat;
+    }
+
+    /**
      * Ajout joueur
      * @param Joueurs
      * @return integer
