@@ -1,0 +1,12 @@
+body{
+    background: no-repeat fixed url("../image/lg.jpeg");
+    color: white;
+}
+
+button {
+    margin-top: 25%;
+    margin-left: 30%;
+    width: 500px;
+    height: 60px;
+    background-color: white;
+  }
