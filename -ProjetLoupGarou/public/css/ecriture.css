@@ -1,27 +1,16 @@
-h1{
-    font-family: Marker Felt;
-    color: white;
-    font-size: 350%;
-    margin-top: 12%;
-}
-
-h2{
+h2 {
     font-family: Brush Script MT;
-    color:black;
+    color: black;
     font-size: large;
     font-size: 150%;
     text-shadow: 0.1em 0.2em 0.2em rgba(0, 0, 0, 0.301);
 }
 
-p{
-    
-    
-    text-shadow: 0.1em 0.2em 0.2em rgb(0, 0, 0);  
+p {
+    text-shadow: 0.1em 0.2em 0.2em rgb(0, 0, 0);
 }
 
 .bg-success {
     --bs-bg-opacity: 1;
-    background-color:#5f6364 !important;
-  }
-
-    
+    background-color: #5f6364 !important;
+}
